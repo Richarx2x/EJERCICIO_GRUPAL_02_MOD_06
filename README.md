@@ -18,4 +18,6 @@ de las pruebas.
 - Las imágenes e información del proceso desarrollado se encuentran dentro de la carpeta
 "word", dentro de este directorio.
 
-- Se adjunta archivo .pdf, con las instrucciones del ejercicio.
+- Se adjuntan archivos .pdf, con las instrucciones del ejercicio grupal 2 y 2.1.
+
+- Se actualiza repositorio para el ejercicio grupal 2.1

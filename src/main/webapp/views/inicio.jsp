@@ -7,6 +7,7 @@
 <head>
     <title>Página de inicio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/views/style.css">
 </head>
 <body>
 <header>
@@ -15,7 +16,8 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Inicio</a></li>
                 <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/contacto">Contacto</a></li>
-                <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/capacitaciones/crear">Capacitaciones</a></li>
+                <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/capacitaciones">Capacitaciones</a></li>
+                <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/capacitaciones/crear">Crear Capacitación</a></li>
             </ul>
         </div>
     </nav>

@@ -7,6 +7,7 @@
 <head>
   <title>P�gina de crear capacitacion</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/views/style.css">
 </head>
 <body>
 
@@ -15,8 +16,9 @@
     <div class="container">
       <ul class="nav navbar-nav">
         <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/">Inicio</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li class="active"><a href="/EJERCICIO_GRUPAL_02_MOD_06/capacitaciones/crear">Capacitaciones</a></li>
+        <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/contacto">Contacto</a></li>
+        <li><a href="/EJERCICIO_GRUPAL_02_MOD_06/capacitaciones">Capacitaciones</a></li>
+        <li class="active"><a href="#">Crear Capacitación</a></li>
       </ul>
     </div>
   </nav>
@@ -25,7 +27,7 @@
 <!-- Cuerpo de la p�gina -->
 <div class="container mt-4">
   <h1>Crea una nueva capacitacion</h1>
-  <form action="Contacto" method="post">
+  <form action="/capacitaciones/crear" method="post">
     <div class="mb-3">
       <label for="id" class="form-label">ID de la capacitacion</label>
       <input type="text" class="form-control" id="id-capacitacion" name="id-capacitacion" required>
@@ -40,23 +42,23 @@
     </div>
     <div class="mb-3">
       <label for="fecha" class="form-label">Fecha de la capacitacion</label>
-      <input type="email" class="form-control" id="fecha-capacitacion" name="fecha-capacitacion" required>
+      <input type="text" class="form-control" id="fecha-capacitacion" name="fecha-capacitacion" required>
     </div>
     <div class="mb-3">
       <label for="hora" class="form-label">Hora de la capacitacion</label>
-      <input type="email" class="form-control" id="hora-capacitacion" name="hora-capacitacion" required>
+      <input type="text" class="form-control" id="hora-capacitacion" name="hora-capacitacion" required>
     </div>
     <div class="mb-3">
       <label for="lugar" class="form-label">Lugar de la capacitacion</label>
-      <input type="email" class="form-control" id="lugar-capacitacion" name="lugar-capacitacion" required>
+      <input type="text" class="form-control" id="lugar-capacitacion" name="lugar-capacitacion" required>
     </div>
     <div class="mb-3">
       <label for="duracion" class="form-label">Duracion de la capacitacion</label>
-      <input type="email" class="form-control" id="duracion-capacitacion" name="duracion-capacitacion" required>
+      <input type="text" class="form-control" id="duracion-capacitacion" name="duracion-capacitacion" required>
     </div>
     <div class="mb-3">
       <label for="asistentes" class="form-label">Cantidad de asistentes</label>
-      <input type="email" class="form-control" id="asistentes-capacitacion" name="asistentes-capacitacion" required>
+      <input type="text" class="form-control" id="asistentes-capacitacion" name="asistentes-capacitacion" required>
     </div>
 
     <button type="submit" class="btn btn-primary">Enviar</button>
